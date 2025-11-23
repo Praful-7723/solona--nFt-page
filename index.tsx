@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css'; // Standard setup, though we use Tailwind in HTML for this example environment
+// import './index.css'; // Standard setup, though we use Tailwind in HTML for this example environment
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

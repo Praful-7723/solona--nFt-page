@@ -11,7 +11,7 @@ export const NFT_DATA: NFTItem[] = [
     price: 6.42,
     currency: 'ETH',
     timeLeft: '05h 02m 41s',
-    imagePrompt: 'Futuristic digital avatar, cyberpunk samurai, neon glitch aesthetic, purple and blue palette, high detail 3d render',
+    image: '/assets/nft-1.png',
     category: 'Art'
   },
   {
@@ -21,7 +21,7 @@ export const NFT_DATA: NFTItem[] = [
     price: 8.15,
     currency: 'ETH',
     timeLeft: '02h 12m 10s',
-    imagePrompt: 'Holographic crystal skull artifact, floating in void, neon rim lights, neo-cyberpunk, glass material',
+    image: '/assets/nft-2.png',
     category: 'Virtual Reality'
   },
   {
@@ -31,7 +31,7 @@ export const NFT_DATA: NFTItem[] = [
     price: 4.20,
     currency: 'ETH',
     timeLeft: '12h 00m 00s',
-    imagePrompt: 'Abstract digital soul, glowing ethereal wisp, deep violet background, glossy glassmorphism, fluid shapes',
+    image: '/assets/nft-3.png',
     category: 'Gaming'
   },
   {
@@ -41,7 +41,7 @@ export const NFT_DATA: NFTItem[] = [
     price: 12.50,
     currency: 'ETH',
     timeLeft: '01h 30m 15s',
-    imagePrompt: 'Cybernetic android portrait, gold and purple plating, futuristic fashion, high detail, studio lighting',
+    image: '/assets/nft-4.png',
     category: 'Art'
   },
   {
@@ -51,7 +51,7 @@ export const NFT_DATA: NFTItem[] = [
     price: 3.75,
     currency: 'ETH',
     timeLeft: '24h 10m 05s',
-    imagePrompt: 'Virtual reality headset floating artifact, glass wires, glowing data streams, synthwave colors, 3d icon',
+    image: '/assets/nft-5.png',
     category: 'Virtual Reality'
   },
   {
@@ -61,7 +61,7 @@ export const NFT_DATA: NFTItem[] = [
     price: 5.00,
     currency: 'ETH',
     timeLeft: '06h 45m 30s',
-    imagePrompt: 'Sonic wave visualization, solid shape, neon bars, equalizer 3D object, glossy dark theme, music nft',
+    image: '/assets/nft-6.png',
     category: 'Music'
   }
 ];

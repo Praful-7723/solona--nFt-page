@@ -5,7 +5,7 @@ export interface NFTItem {
   price: number;
   currency: string;
   timeLeft: string;
-  imagePrompt: string;
+  image: string;
   category: string;
 }
 

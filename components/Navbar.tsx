@@ -11,9 +11,8 @@ export const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navClasses = `fixed top-0 w-full z-50 transition-all duration-300 ${
-    scrolled ? 'bg-deep/80 backdrop-blur-lg border-b border-white/10' : 'bg-transparent py-6'
-  }`;
+  const navClasses = `fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-deep/80 backdrop-blur-lg border-b border-white/10' : 'bg-transparent py-6'
+    }`;
 
   return (
     <nav className={navClasses}>
@@ -22,9 +21,9 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-blue-600 flex items-center justify-center mr-2 shadow-[0_0_15px_rgba(168,85,247,0.5)]">
-              <span className="font-display font-bold text-xl">A</span>
+              <span className="font-display font-bold text-xl">S</span>
             </div>
-            <span className="font-display font-bold text-2xl tracking-wider">AcZone</span>
+            <span className="font-display font-bold text-2xl tracking-wider">SolonaZone</span>
           </div>
 
           {/* Desktop Menu */}
@@ -64,19 +63,19 @@ export const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       <div className={`md:hidden absolute w-full bg-deep/95 backdrop-blur-xl border-b border-white/10 transition-all duration-300 ease-in-out ${mobileOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-10 pointer-events-none'}`}>
         <div className="px-4 pt-2 pb-4 space-y-1">
-           {['Home', 'About Us', 'NFTs', 'Contact'].map((item) => (
-              <a
-                key={item}
-                href="#"
-                className="block px-3 py-2 rounded-md text-base font-medium hover:text-purple-400 hover:bg-white/5"
-              >
-                {item}
-              </a>
-            ))}
-            <div className="pt-4 flex flex-col gap-2">
-              <button className="w-full text-center font-bold py-3 border border-white/10 rounded-lg">Sign In</button>
-              <button className="w-full text-center font-bold py-3 bg-purple-600 rounded-lg shadow-lg shadow-purple-600/40">Get Started</button>
-            </div>
+          {['Home', 'About Us', 'NFTs', 'Contact'].map((item) => (
+            <a
+              key={item}
+              href="#"
+              className="block px-3 py-2 rounded-md text-base font-medium hover:text-purple-400 hover:bg-white/5"
+            >
+              {item}
+            </a>
+          ))}
+          <div className="pt-4 flex flex-col gap-2">
+            <button className="w-full text-center font-bold py-3 border border-white/10 rounded-lg">Sign In</button>
+            <button className="w-full text-center font-bold py-3 bg-purple-600 rounded-lg shadow-lg shadow-purple-600/40">Get Started</button>
+          </div>
         </div>
       </div>
     </nav>
